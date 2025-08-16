@@ -1,0 +1,40 @@
+<footer id="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div class="footer-col footer-brand">
+        <h4>Dani.dev</h4>
+        <p>Building fast, clean & scalable web apps.</p>
+        <a id="mail" href="mailto:mirdani360@gmail.com"><i class="ri-mail-ai-line"></i>mirdani360@gmail.com </a>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+          <a href="https://github.com/MirDanish804" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+          <a href="#" aria-label="X"><i class="ri-twitter-x-fill"></i></a>
+        </div>
+      </div>
+
+      <!-- Pages -->
+      <div class="footer-col">
+        <h6>Pages</h6>
+        <ul class="footer-links">
+          <li><a href="#hero-sec">Home</a></li>
+          <li><a href="#about-sec">About</a></li>
+          <li><a routerLink="/project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Dani.dev — All rights reserved.</p>
+      <a class="back-to-top" href="#main">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  <router-outlet></router-outlet>
+</script>
+

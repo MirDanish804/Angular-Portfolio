@@ -1,0 +1,146 @@
+<div id="main">
+
+
+  <section id="hero-sec">
+    <div id="top">
+    <div id="left">
+      <h3><b>FULL-STACK WEB DEVELOPER👋🏻</b></h3>
+      <p>A dedicated web-developer based in Karachi, Pakistan. 🎈</p>
+     <div id="social-links">
+       <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="https://github.com/MirDanish804"><i class="ri-github-fill"></i></a>
+     </div>
+    </div>
+    <div id="right">
+
+      <div class="portrait-frame">
+  <svg class="portrait-svg" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <clipPath id="circleClip">
+        <circle cx="160" cy="160" r="140" />
+      </clipPath>
+
+      <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#b452da"/>
+        <stop offset="100%" stop-color="#f97218"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Photo clipped to circle -->
+    <image href="dani.jpeg" x="0" y="0" width="320" height="320"
+           clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice" />
+
+    <!-- Solid animated gradient border -->
+    <circle cx="160" cy="160" r="145"
+            fill="none" stroke="url(#circleGrad)" stroke-width="6"
+            class="pf-border" />
+  </svg>
+</div>
+
+
+    </div>
+    </div>
+    <div id="bottom">
+      <h6>Tech Stack</h6>
+      <div id="lang-container">
+        <div class="lang-box">
+          <img src="assets/react icon.png" alt="">
+          <h5>React</h5>
+        </div>
+        <div class="lang-box">
+          <img src="assets/jS icon.webp" alt="">
+           <h5>Java Script</h5>
+        </div>
+        <div class="lang-box">
+          <img src="assets/angular.jpg" alt="">
+           <h5>Anguler</h5>
+        </div>
+        <div class="lang-box">
+          <img src="assets/github.png" alt="">
+           <h5>GitHub</h5>
+        </div>
+         <div class="lang-box">
+          <img src="assets/typescript.png" alt="">
+           <h5>typeScript</h5>
+        </div>
+        <div class="lang-box">
+          <img src="assets/php.png" alt="">
+           <h5>PHP</h5>
+        </div>
+          <div class="lang-box">
+          <img src="assets/mysql-icon.webp" alt="">
+           <h5>MySql</h5>
+        </div>
+        <div class="lang-box">
+          <img src="assets/css.webp" alt="">
+           <h5>Html</h5>
+        </div>
+        <div class="lang-box">
+          <img src="assets/html.jpg" alt="">
+           <h5>Css</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- about code -->
+ 
+<section id="about-sec">
+  <div id="left">
+    <img src="https://i.pinimg.com/736x/43/cf/9b/43cf9bff3f74f06ca431bcc31cc7dda0.jpg" id="about-img" alt="">
+    <img src="https://abhishekjha.me/2020/photos/scroll.png" id="scroll" alt="">
+  </div>
+  <div id="right">
+    <h6>About me</h6>
+    <h4>A dedicated web-developer based in Karachi, Pakistan.🎈</h4>
+    <p>I'm a full-stack developer skilled in JavaScript, React, TypeScript, Angular, PHP, MySQL, HTML, CSS, and GitHub. I build robust web applications with clean code, responsive design, and seamless user experiences. Passionate about innovation and continuous improvement.</p>
+  </div>
+ </section>
+
+ <!-- Contact section code -->
+
+<!-- 
+ <section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+  <p>Have a project in mind? Let's build something great together.</p>
+
+  <form (submit)="sendMessage($event)">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <p>Email: <a href="mirdani360@gmail.com">mirdani360@gmail.com</a></p>
+    <div class="socials">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+  </div>
+</section> -->
+
+<!-- section of project -->
+
+<!-- code for project section  -->
+<section id="work-sec">
+  <div id="work-infor">
+    <div id="left-part">
+      <h2>My Work</h2>
+      <p>
+        Discover innovative solutions, see my hands-on experience, and witness
+        my journey from concept to completion. Dive into the stories behind
+        each project.
+      </p>
+    </div>
+    <video autoplay muted loop src="assets/video.webm"></video>
+  </div>
+  <div id="proj-btn">
+    <a routerLink="/project">View projects <i class="ri-arrow-right-up-line"></i></a>
+  </div>
+</section>
+
+
+</div>
+
+<router-outlet></router-outlet>
